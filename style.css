@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.hanckericon{
+    margin-left: 20px;
+    position: relative;
+}
+.givespace{
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 20px;
+}
+.tech{
+    position: relative;
+    margin-top: 20px;
+}
+.container-fluid{
+    margin-left: 50px;
+    position: relative;
+}
+.person{
+    position: relative;
+    margin-top: 20px;
+}
+#bool{
+    position: absolute;
+transform: translateY(-40px);
+}
+.details{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 500px;
+    margin-top: 20px;
+}

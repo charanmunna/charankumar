@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+<!--navbar-->
+<section>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Charan kumar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <!--
+                <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contact Details
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Gmail: charankumarkandregula@gmail.com</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Phone: 9553343303</a></li>
+                </ul>
+              </li>
+             
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+</section>
+<!--off canvas sliding bar left-->
+<section>
+<div class="hanckericon">
+      <button id="bool" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        <i class="fa fa-anchor" aria-hidden="true"></i>
+      </button>
+    </div>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Charan kumar kandregula</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            All details about me are described on this webbsite.
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+</section>
+<!--container-->
+<div class="givespace">
+
+    <h2>Educational Details :-</h2>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Bachelor of technology(B.Tech) :-
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+             I have completed my graduation from <strong>Srinivasa institute of engineering and technology</strong> in the stream of <strong>Electrical and electronics engineering</strong>, cheyyeru with agrigent percentage of 70%. Under <strong>Jawaharlal nehru technological university, kakinada.</strong>
+            <br>Duration : 2019 - 2022
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Diploma :-
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                I also completed my Diploma from <strong>Srinivasa institute of engineering and technology</strong> in the stream of <strong>Electrical and electronics engineering</strong>, cheyyeru with agrigent percentage of 87.11%. Under <strong>State Board Of Technical Education nad Trainig</strong>
+                <br>Duration : 2016 - 2019
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              ssc :-            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+             I did my schooling from <strong>Z.P.P.Boys high school, Amalapuram</strong> with agrigent percentage of 90%.
+             <br>Duration : 2015 - 2016
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+<!--scroll spy  -->
+<div class="tech">
+    <h2>Technical Skills :-</h2>
+    <div class="row">
+        <div class="col-4">
+          <div id="list-example" class="list-group">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">Programming Languages:</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Scripting Languages: </a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Tools: </a>
+            
+          </div>
+        </div>
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#list-example" id="test" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <h4 id="list-item-1">Programming Languages:</h4>
+            <p> 
+                C, C++, JAVA.
+                </p>   
+            <h4 id="list-item-2">Scripting Languages: </h4>
+            <p>HTML & CSS, Javascript.</p>
+           
+            
+            <h4 id="list-item-3">Tools: </h4>
+            MS-Office, VS-Code, Eclipse.
+          </div>
+        </div>
+      </div>
+    </div>
+<!--Accordian-->
+<div class="person">
+<h2>Personal Details :-</h2>
+<div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Project
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+            <p>
+            <h3>Tittle :-</h3>
+             3-Phase Reactive Power Compensation using STATCOM(Static Synchronous Compensator) device through MATLAB Software.
+            
+            <h3>Description :-</h3>
+            
+            This project presents a study on MATLAB/Simulink model of STATCOM(static synchronous compensator) for reactive power compensation. The STATCOM is shunt connected facts device used for improve voltage profile of transmission system which connected line with voltage source inverter with dc link capacitor. Reactive power compensation using STATCOM is used for reducing power loss and improves power factor and voltage profile in transmission system. It is the best way to overcome the problem of reactive power compenation without constructing new transmission lines.
+            </p></div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Achievements:
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+            <h4>N.C.C (National adet Corps)</h4>
+            <p> ‘A’ certificate with rank” Under Officer”.</p>
+            <h4 id="list-item-2">Sports</h4>
+            <p>Got First Price in NET BALL Game in 2014, conducted by THE EAST GODAVARI DISTRICT SECONDARY ZONAL SPORTS & GAMES MEET.</p>
+            <h4 id="list-item-2">Participation Certificate</h4>
+            <ol>
+                <li>Participated in RES-STORE in VALIANT-2K19, a college tech fest organized by SHRI VISHNU ENGINEERING COLLEGE AUTONOMOUS.</li>
+            <li>Participated in in PROJECT EXPO in AAVISHKAR-2K20, a college tech fest organized by SRINIVASA INSTITUTE OF ENGINEERING</li>
+            </ol>   
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Organization:
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+            <h4 id="list-item-3">Organization:</h4>
+            <p>
+                <ol>
+                    <li>
+                        In 2015, I have organised a SCIENCE FAIR conducted by Z.P.P.BOYS HIGH SCHOOL. I have taken leadership and responsibility of few members by taking instructions from teachers and I successfully organized the event.
+                    </li>
+                    <li>
+                    In the AAVISHKAR-2K20, I have organized the event conducted by
+SRINIVASA INSTITUTE OF ENGINEERING AND TECHNOLOGY. I have taken leadership and responsibility of few members by taking instructions from professors and I successfully organized the event.
+
+                    </li>
+                </ol>
+            </p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+   <div class="details" >
+    <div class="address">
+<p>
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+      Present Address
+    </button>
+  </p>
+  <div style="min-height: 120px;">
+    <div class="collapse collapse-horizontal" id="collapseWidthExample">
+      <div class="card card-body" style="width: 300px;">
+        586/4, Vinobnagar, Hyderabad, Telangana, 500008.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="Address">
+    <p>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+          Permenant Address
+        </button>
+      </p>
+      <div style="min-height: 120px;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+          <div class="card card-body" style="width: 300px;">
+            1-3-66/9, Vanacharla vari street, Amalapuram, East Godavari District, Andhra Pradesh, 533201.
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+</div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+
+</script>
+<!-- alerts -->
+   <script>
+    const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+
+const alert = (message, type) => {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
+
+  alertPlaceholder.append(wrapper)
+}
+
+const alertTrigger = document.getElementById('liveAlertBtn')
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', () => {
+    alert('Nice, you triggered this alert message!', 'success')
+  })
+}
+   </script>
+  
+   
+</body>
+</html>
